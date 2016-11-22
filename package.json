@@ -1,0 +1,40 @@
+{
+  "name": "payroll_service",
+  "version": "1.0.0",
+  "description": "Techmaster payment roll handle service",
+  "main": "server.js",
+  "bin": {
+    "payroll_service": "tech.js"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "test mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@vietworm"
+  },
+  "keywords": [
+    "service",
+    "nodejs",
+    "techmaster",
+    "payment"
+  ],
+  "author": "Techmaster",
+  "license": "MIT",
+  "dependencies": {
+    "amqp": "^0.2.6",
+    "chalk": "^1.1.3",
+    "finciero-zipkin-js": "^1.1.2",
+    "install": "^0.8.2",
+    "kafka-node": "^1.0.7",
+    "mongoose": "^4.6.8",
+    "mqtt": "^2.1.3",
+    "node-zookeeper-client": "^0.2.2",
+    "zipkin": "^0.5.0",
+    "zipkin-transport-kafka": "^0.5.0"
+  }
+}

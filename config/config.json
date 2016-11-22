@@ -1,0 +1,19 @@
+{
+  "name": "tech-services",
+  "description": "Techmaster Serivce handler",
+  "keywords": [
+    "nodejs",
+    "WebSphere"
+  ],
+  "language": "en_US",
+  "port": "1337",
+  "admin_prefix": "admin",
+  "modules": [
+    "mod_google_analytics",
+    "mod_seo"
+  ],
+  "theme": "bootstrap",
+  "page_size": 10,
+  "admin_email": "lephuhai0511@gmail.com",
+  "version": "v1.1"
+}
